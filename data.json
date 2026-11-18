@@ -1,0 +1,348 @@
+{
+  "tienda": {
+    "nombre": "Elástika",
+    "eslogan": "Tiras elásticas para entrenar donde quieras",
+    "whatsapp": "17185550123",
+    "telefono": "(718) 555-0123",
+    "email": "hola@elastika.com",
+    "direccion": "37-15 82nd St, Jackson Heights, NY 11372",
+    "horario": "Lunes a viernes 10am–7pm · Sábados 10am–3pm",
+    "instagram": "https://instagram.com/",
+    "facebook": "https://facebook.com/",
+    "aviso": "🚚 Entrega GRATIS en NYC desde $35 · Envíos a todo EE. UU. · Recogida en tienda sin coste",
+    "eslogan_en": "Resistance bands to train anywhere",
+    "horario_en": "Monday to Friday 10am–7pm · Saturday 10am–3pm",
+    "aviso_en": "🚚 FREE delivery in NYC over $35 · Shipping across the US · Free store pickup",
+    "impuestosTexto": "Impuestos incluidos",
+    "impuestosTexto_en": "Taxes included"
+  },
+  "portada": {
+    "titulo": "Entrena fuerte, en casa o donde sea",
+    "subtitulo": "Tiras elásticas de látex natural para fitness, fisioterapia, pilates y yoga. Calidad profesional a precio de barrio.",
+    "imagen": "img/portada.svg",
+    "boton": "Ver productos",
+    "clientes": "+1,500",
+    "valoracion": "4.9",
+    "titulo_en": "Train hard, at home or anywhere",
+    "subtitulo_en": "Natural latex resistance bands for fitness, physical therapy, pilates and yoga. Pro quality at neighborhood prices.",
+    "boton_en": "Shop now"
+  },
+  "usos": [
+    {
+      "icono": "🍑",
+      "titulo": "Glúteos y piernas",
+      "titulo_en": "Glutes & legs",
+      "texto": "Activa y tonifica con sentadillas, patadas y puentes.",
+      "texto_en": "Activate and tone with squats, kickbacks and bridges."
+    },
+    {
+      "icono": "🧘‍♀️",
+      "titulo": "Pilates y yoga",
+      "titulo_en": "Pilates & yoga",
+      "texto": "Más control, más estiramiento y mejor postura.",
+      "texto_en": "More control, deeper stretches and better posture."
+    },
+    {
+      "icono": "🩺",
+      "titulo": "Fisioterapia",
+      "titulo_en": "Physical therapy",
+      "texto": "Recupera movilidad con resistencias suaves y progresivas.",
+      "texto_en": "Regain mobility with gentle, progressive resistance."
+    },
+    {
+      "icono": "💪",
+      "titulo": "Fuerza en casa",
+      "titulo_en": "Strength at home",
+      "texto": "Brazos, espalda y dominadas asistidas sin ir al gimnasio.",
+      "texto_en": "Arms, back and assisted pull-ups without a gym."
+    }
+  ],
+  "sobre": {
+    "titulo": "Un pequeño negocio con mucha fuerza",
+    "titulo_en": "A small business with a lot of strength",
+    "texto": "Empezamos vendiendo tiras elásticas a amigas del gimnasio en Queens y hoy las enviamos a todo Estados Unidos. Elegimos cada modelo a mano, lo probamos y te asesoramos para que aciertes con la resistencia que necesitas. Puedes pasarte por la tienda a probarlas sin compromiso.",
+    "texto_en": "We started selling resistance bands to gym friends in Queens, and today we ship them all over the United States. We pick every model by hand, test it, and help you choose the right resistance. Stop by the store and try them on, no strings attached."
+  },
+  "categorias": [
+    "Tiras",
+    "Packs",
+    "Tubos",
+    "Accesorios"
+  ],
+  "categoriasEn": {
+    "Tiras": "Bands",
+    "Packs": "Sets",
+    "Tubos": "Tubes",
+    "Accesorios": "Accessories"
+  },
+  "productos": [
+    {
+      "id": "p1",
+      "nombre": "Tira elástica suave",
+      "categoria": "Tiras",
+      "precio": 7.99,
+      "precioAntes": null,
+      "descripcion": "Resistencia baja (5–10 lb). Ideal para empezar, rehabilitación y calentamiento.",
+      "imagen": "img/banda-amarilla.svg",
+      "destacado": false,
+      "agotado": false,
+      "nivel": 1,
+      "nombre_en": "Light resistance band",
+      "descripcion_en": "Light resistance (5–10 lb). Great for beginners, rehab and warm-ups."
+    },
+    {
+      "id": "p2",
+      "nombre": "Tira elástica media",
+      "categoria": "Tiras",
+      "precio": 8.99,
+      "precioAntes": null,
+      "descripcion": "Resistencia media (10–20 lb). Glúteos, piernas y brazos.",
+      "imagen": "img/banda-roja.svg",
+      "destacado": true,
+      "agotado": false,
+      "nivel": 2,
+      "nombre_en": "Medium resistance band",
+      "descripcion_en": "Medium resistance (10–20 lb). Glutes, legs and arms."
+    },
+    {
+      "id": "p3",
+      "nombre": "Tira elástica fuerte",
+      "categoria": "Tiras",
+      "precio": 9.99,
+      "precioAntes": null,
+      "descripcion": "Resistencia alta (20–35 lb). Para quien ya entrena con regularidad.",
+      "imagen": "img/banda-azul.svg",
+      "destacado": false,
+      "agotado": false,
+      "nivel": 3,
+      "nombre_en": "Heavy resistance band",
+      "descripcion_en": "Heavy resistance (20–35 lb). For people who train regularly."
+    },
+    {
+      "id": "p4",
+      "nombre": "Tira elástica extra fuerte",
+      "categoria": "Tiras",
+      "precio": 11.99,
+      "precioAntes": null,
+      "descripcion": "Resistencia muy alta (35–55 lb). Dominadas asistidas y fuerza.",
+      "imagen": "img/banda-negra.svg",
+      "destacado": false,
+      "agotado": false,
+      "nivel": 5,
+      "nombre_en": "Extra heavy resistance band",
+      "descripcion_en": "Extra heavy resistance (35–55 lb). Assisted pull-ups and strength."
+    },
+    {
+      "id": "p5",
+      "nombre": "Pack 5 tiras + bolsa",
+      "categoria": "Packs",
+      "precio": 34.99,
+      "precioAntes": 49.95,
+      "descripcion": "Las cinco resistencias, bolsa de tela y guía de ejercicios. El más vendido.",
+      "imagen": "img/pack.svg",
+      "destacado": true,
+      "agotado": false,
+      "nivel": 3,
+      "nombre_en": "5-band set + bag",
+      "descripcion_en": "All five resistance levels, a cloth bag and an exercise guide. Our best seller."
+    },
+    {
+      "id": "p6",
+      "nombre": "Tubo con asas",
+      "categoria": "Tubos",
+      "precio": 16.99,
+      "precioAntes": null,
+      "descripcion": "Tubo elástico con asas acolchadas y anclaje para puerta.",
+      "imagen": "img/tubo.svg",
+      "destacado": false,
+      "agotado": false,
+      "nivel": 3,
+      "nombre_en": "Tube band with handles",
+      "descripcion_en": "Resistance tube with padded handles and a door anchor."
+    },
+    {
+      "id": "p7",
+      "nombre": "Tira de tela antideslizante",
+      "categoria": "Tiras",
+      "precio": 12.99,
+      "precioAntes": null,
+      "descripcion": "Banda de tela que no se enrolla ni pellizca. Perfecta para glúteos.",
+      "imagen": "img/banda-verde.svg",
+      "destacado": false,
+      "agotado": false,
+      "nivel": 2,
+      "nombre_en": "Non-slip fabric band",
+      "descripcion_en": "Fabric band that won't roll up or pinch. Perfect for glutes."
+    },
+    {
+      "id": "p8",
+      "nombre": "Tira larga de pilates",
+      "categoria": "Accesorios",
+      "precio": 14.99,
+      "precioAntes": null,
+      "descripcion": "2 metros de largo, ideal para pilates, yoga y estiramientos.",
+      "imagen": "img/banda-morada.svg",
+      "destacado": false,
+      "agotado": true,
+      "nivel": 1,
+      "nombre_en": "Long pilates band",
+      "descripcion_en": "6.5 ft long, ideal for pilates, yoga and stretching."
+    }
+  ],
+  "envios": {
+    "zonas": [
+      {
+        "nombre": "Nueva York (NYC) · entrega en mano",
+        "nombre_en": "New York City · hand delivery",
+        "prefijos": "100, 101, 102, 103, 104, 111, 112, 113, 114, 116",
+        "precio": 4.99,
+        "gratisDesde": 35,
+        "diasMin": 1,
+        "diasMax": 1,
+        "pagoAlRecibir": true
+      },
+      {
+        "nombre": "Long Island y Westchester",
+        "nombre_en": "Long Island & Westchester",
+        "prefijos": "105, 106, 107, 108, 110, 115, 117, 118, 119",
+        "precio": 7.99,
+        "gratisDesde": 50,
+        "diasMin": 1,
+        "diasMax": 2,
+        "pagoAlRecibir": true
+      },
+      {
+        "nombre": "New Jersey",
+        "nombre_en": "New Jersey",
+        "prefijos": "07, 08",
+        "precio": 7.99,
+        "gratisDesde": 50,
+        "diasMin": 1,
+        "diasMax": 3,
+        "pagoAlRecibir": true
+      },
+      {
+        "nombre": "Resto de EE. UU.",
+        "nombre_en": "Rest of the US",
+        "prefijos": "*",
+        "precio": 9.99,
+        "gratisDesde": 75,
+        "diasMin": 3,
+        "diasMax": 6,
+        "pagoAlRecibir": false
+      }
+    ],
+    "recogida": {
+      "activa": true,
+      "texto": "Listo en 2 horas. Te avisamos por WhatsApp.",
+      "texto_en": "Ready in 2 hours. We'll text you on WhatsApp."
+    },
+    "notaPagoEnvio": "Para envíos fuera de NY y NJ te mandamos por WhatsApp cómo pagar antes de enviarlo.",
+    "notaPagoEnvio_en": "For orders shipped outside NY and NJ, we'll message you on WhatsApp with how to pay before shipping."
+  },
+  "pagos": {
+    "efectivo": {
+      "activo": true
+    },
+    "tarjeta": {
+      "activo": true
+    }
+  },
+  "pedidos": {
+    "prefijo": "EL"
+  },
+  "ventajas": [
+    {
+      "icono": "🚚",
+      "titulo": "Envíos a todo EE. UU.",
+      "titulo_en": "Shipping across the US",
+      "texto": "En NYC te lo llevamos en 24 h.",
+      "texto_en": "In NYC we deliver within 24 hours."
+    },
+    {
+      "icono": "💬",
+      "titulo": "Te asesoramos",
+      "titulo_en": "Friendly advice",
+      "texto": "Escríbenos por WhatsApp y te ayudamos a elegir.",
+      "texto_en": "Message us on WhatsApp and we'll help you choose."
+    },
+    {
+      "icono": "🏪",
+      "titulo": "Recogida en tienda",
+      "titulo_en": "Store pickup",
+      "texto": "Pásate a por tu pedido sin coste.",
+      "texto_en": "Pick up your order for free."
+    },
+    {
+      "icono": "💵",
+      "titulo": "Pagas al recibir",
+      "titulo_en": "Pay on delivery",
+      "texto": "En efectivo o con tarjeta. Sin pagar nada por adelantado.",
+      "texto_en": "Cash or card. Nothing to pay upfront."
+    }
+  ],
+  "opiniones": [
+    {
+      "nombre": "Laura M.",
+      "texto": "Compré el pack y es justo lo que necesitaba para entrenar en casa. Muy buena calidad.",
+      "texto_en": "I bought the set and it's exactly what I needed to work out at home. Great quality.",
+      "estrellas": 5
+    },
+    {
+      "nombre": "Carmen R.",
+      "texto": "Me las recomendó mi fisio y me atendieron genial. Llegaron al día siguiente.",
+      "texto_en": "My physical therapist recommended them and the service was great. They arrived the next day.",
+      "estrellas": 5
+    },
+    {
+      "nombre": "Javier P.",
+      "texto": "La extra fuerte me va perfecta para las dominadas. Repetiré.",
+      "texto_en": "The extra heavy one is perfect for my pull-ups. I'll be back.",
+      "estrellas": 4
+    }
+  ],
+  "faq": [
+    {
+      "p": "¿Cómo hago un pedido?",
+      "p_en": "How do I place an order?",
+      "r": "Añade los productos al carrito, elige envío o recogida, rellena tus datos y pulsa “Enviar pedido por WhatsApp”. Te contestamos para confirmarlo.",
+      "r_en": "Add products to your cart, choose delivery or pickup, fill in your details and tap “Send order on WhatsApp”. We'll reply to confirm."
+    },
+    {
+      "p": "¿Cómo se paga?",
+      "p_en": "How do I pay?",
+      "r": "En efectivo o con tarjeta, cuando recibes el pedido o al recogerlo en la tienda. No pagas nada por adelantado.",
+      "r_en": "Cash or card, when you receive your order or pick it up at the store. Nothing to pay upfront."
+    },
+    {
+      "p": "¿Los precios llevan impuestos?",
+      "p_en": "Are taxes included in the price?",
+      "r": "Sí. El precio que ves es el que pagas: los impuestos ya están incluidos. Solo se suma el envío si lo hay.",
+      "r_en": "Yes. The price you see is the price you pay: taxes are already included. Only shipping is added, if any."
+    },
+    {
+      "p": "¿Cuánto tarda el envío?",
+      "p_en": "How long does shipping take?",
+      "r": "En NYC te lo llevamos en 24 h, a Long Island, Westchester y New Jersey en 1–3 días y al resto de EE. UU. en 3–6 días hábiles. Al poner tu ZIP code verás el precio y la fecha estimada.",
+      "r_en": "In NYC we deliver within 24 hours, to Long Island, Westchester and New Jersey in 1–3 days, and to the rest of the US in 3–6 business days. Enter your ZIP code to see the price and estimated date."
+    },
+    {
+      "p": "¿Cómo sé dónde está mi pedido?",
+      "p_en": "How do I track my order?",
+      "r": "Te avisamos por WhatsApp en cada paso: cuando lo recibimos, cuando lo preparamos y cuando sale.",
+      "r_en": "We'll update you on WhatsApp at every step: when we get it, when we prepare it and when it's on its way."
+    },
+    {
+      "p": "¿Qué resistencia me conviene?",
+      "p_en": "Which resistance should I choose?",
+      "r": "Si empiezas, la suave o la media. Si dudas, el pack de 5 te permite ir progresando. Y si nos escribes te asesoramos sin compromiso.",
+      "r_en": "If you're starting out, go light or medium. Not sure? The 5-band set lets you progress over time. Message us and we'll help."
+    },
+    {
+      "p": "¿Tienen látex?",
+      "p_en": "Do they contain latex?",
+      "r": "Las tiras clásicas son de látex natural. Si tienes alergia, elige la tira de tela.",
+      "r_en": "The classic bands are natural latex. If you're allergic, choose the fabric band."
+    }
+  ]
+}

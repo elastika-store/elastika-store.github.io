@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Panel de administración · Elástika</title>
+  <link rel="icon" href="img/banda-azul.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <!-- Login -->
+  <section id="login" class="login">
+    <div class="login-card">
+      <div class="logo"><span class="logo-mark"></span>Panel de administración</div>
+      <p>Introduce tu clave de acceso para editar la tienda.</p>
+      <form id="login-form">
+        <input id="token" type="password" placeholder="Clave de acceso" autocomplete="current-password" required>
+        <label class="chk"><input type="checkbox" id="remember" checked> Recordarme en este dispositivo</label>
+        <button class="btn primary" type="submit">Entrar</button>
+        <p class="err" id="login-err"></p>
+      </form>
+      <button class="btn ghost" id="demo-btn" style="width:100%">🧪 Probar en modo demostración</button>
+      <details class="help">
+        <summary>¿No tienes clave?</summary>
+        <p>La clave es un “token” de GitHub con permiso para modificar esta web. Pídesela a quien te montó la tienda: solo tienes que pegarla una vez en cada dispositivo.</p>
+      </details>
+      <a href="index.html" class="back">← Volver a la tienda</a>
+    </div>
+  </section>
+
+  <!-- Panel -->
+  <div id="app" class="app" hidden>
+    <aside class="side">
+      <div class="logo"><span class="logo-mark"></span><span id="brand">Elástika</span></div>
+      <nav id="tabs">
+        <button data-tab="productos" class="on">🧺 Productos</button>
+        <button data-tab="envios">🚚 Envíos y pagos</button>
+        <button data-tab="portada">🏠 Portada</button>
+        <button data-tab="tienda">🏪 Datos de la tienda</button>
+        <button data-tab="sobre">💙 Sobre nosotros</button>
+        <button data-tab="usos">🎯 Usos</button>
+        <button data-tab="opiniones">⭐ Opiniones</button>
+        <button data-tab="ventajas">✅ Ventajas</button>
+        <button data-tab="faq">❓ Preguntas</button>
+      </nav>
+      <div class="side-foot">
+        <a href="index.html" target="_blank">Ver tienda ↗</a>
+        <button id="logout" class="link">Cerrar sesión</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="bar">
+        <div>
+          <h1 id="tab-title">Productos</h1>
+          <p id="status" class="status">Todo guardado</p>
+        </div>
+        <div class="bar-actions">
+          <button class="btn ghost" id="preview">👀 Vista previa</button>
+          <button class="btn ghost" id="discard">Descartar</button>
+          <button class="btn primary" id="publish" disabled>🚀 Publicar cambios</button>
+        </div>
+      </header>
+      <div id="editor" class="editor"></div>
+    </main>
+  </div>
+
+  <div class="dialog" id="dialog" hidden><div class="dialog-box"><p id="dialog-t"></p><div class="dialog-btns"><button class="btn ghost" id="dialog-no">Cancelar</button><button class="btn primary" id="dialog-si">Sí, continuar</button></div></div></div>
+  <div class="toast" id="toast"></div>
+  <div class="loading" id="loading" hidden><div class="spin"></div><p id="loading-t">Cargando…</p></div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
